@@ -77,6 +77,24 @@ html {
     letter-spacing: -0.5px;
 }
 
+.logo-icon {
+    width: 45px;         
+    height: 45px;        
+    border-radius: 50%;  
+    overflow: hidden;     
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: #e2d2ff;
+}
+
+.logo-icon img {
+    width: 170%; 
+    height: 170%; 
+    object-fit: cover; 
+}
+
+
 .nav-links {
     display: flex;
     list-style: none;
