@@ -9,6 +9,7 @@
   --Background-Color: #f0e0ff;
   --Secondary-Color: #975acf;
   --Darker-Color: #55297e;
+  --Another-Color: #411e7a;
 }
 
 body {
@@ -51,9 +52,9 @@ html {
 /* nav bar at top and logo */
 .nav-container {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 60px;
 }
 
 .navbar {
@@ -104,8 +105,8 @@ html {
 .nav-links a {
   text-decoration: none;
   color: var(--Secondary-Color);
-  font-size: 22px;
   font-weight: 600;
+  font-size: 1.1rem;
   transition: color 0.2s ease;
 }
 
@@ -118,44 +119,44 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  max-width: 1200px;
-  margin: 60px auto 0 auto;
+  max-width: 1400px;
+  margin: 80px auto 120px auto;
   padding: 0 40px;
-  gap: 40px;
+  gap: 80px;
 }
 
 .hero-content {
   flex: 1;
-  max-width: 600px;
+  max-width: 750px;
 }
 
 .hero-label {
-  display: inline-block;
-  padding: 7px 14px;
-  margin-bottom: 22px;
-  border-radius: 20px;
-  background: linear-gradient(90deg, #6e42d8, #975acf);
-  color: white;
-  font-size: 12px;
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
   font-weight: 700;
-  letter-spacing: 0.5px;
+  color: var(--Secondary-Color);
 }
 
-h1 {
-  font-size: 62px;
-  line-height: 0.98;
-  letter-spacing: -3px;
+.hero-content h1 {
+  font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
-  margin-bottom: 30px;
+  font-size: 4rem;
+  line-height: 1.1;
   color: var(--Darker-Color);
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 .hero-description {
-  color: var(--Light-Text);
-  font-size: 17px;
-  line-height: 1.7;
-  max-width: 510px;
-  margin-bottom: 32px;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: black;
+  margin-bottom: 35px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
 }
 
 .hero-buttons {
@@ -167,7 +168,7 @@ h1 {
 .btn {
   display: inline-block;
   font-family: "Changa One", sans-serif;
-  padding: 14px 24px;
+  padding: 14px 28px;
   border-radius: 8px;
   text-decoration: none;
   font-size: 15px;
@@ -209,7 +210,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 320px;
+  width: 360px;
 }
 
 h2 {
@@ -226,12 +227,13 @@ h2 {
   padding-bottom: 8px;
   width: 80%;
   margin-bottom: 12px;
+  font-size: 1.6rem;
 }
 
 .fun-text p {
   color: var(--Secondary-Color);
   font-family: "Space Grotesk", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin: 5px 0;
   line-height: 1.4;
   text-align: center;
@@ -252,7 +254,7 @@ h2 {
   text-align: center;
   font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   color: var(--Darker-Color);
   margin-bottom: 40px;
 }
