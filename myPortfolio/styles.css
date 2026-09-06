@@ -240,3 +240,62 @@ h2 {
 .fun-text {
   margin-bottom: 40px;
 }
+
+/* about / story section */
+.me-container {
+  max-width: 1000px;
+  margin: 100px auto 40px auto;
+  padding: 0 40px;
+}
+
+.me-content h1 {
+  text-align: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: var(--Darker-Color);
+  margin-bottom: 40px;
+}
+
+.about-text p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--Secondary-Color);
+  line-height: 1.6;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+#about-italic {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  margin-top: 60px;
+}
+
+.github-link {
+  color: var(--Secondary-Color);
+  font-size: 2.5rem;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    color 0.2s ease;
+}
+
+.github-link:hover {
+  color: var(--Darker-Color);
+  transform: scale(1.1);
+}
+
+.github-icon-svg {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
