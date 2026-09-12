@@ -113,3 +113,128 @@ html {
 .nav-links a:hover {
   color: var(--Darker-Color);
 }
+
+/* projects */
+.project-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: var(--Darker-Color);
+  margin: 0 0 12px 0;
+}
+
+.subtitle {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--Secondary-Color);
+  margin: 0 0 60px 0;
+}
+
+.projects-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px 40px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
+.project-image-box {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background-color: #eeeeee;
+  border-radius: 40px;
+  margin-bottom: 24px;
+}
+
+/*.project-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+}*/
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.project-tag {
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  color: var(--Secondary-Color);
+}
+
+.project-highlight {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--Secondary-Color);
+  margin: 0;
+}
+
+.project-desc {
+  font-weight: 500;
+  font-size: 1.15rem;
+  color: var(--Secondary-Color);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.project-tech {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--Secondary-Color);
+}
+
+@media (max-width: 850px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*.project-link-wrapper {
+  display: inline-flex;
+  align-items: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--Darker-Color);
+}*/
+
+.project-btn {
+  color: white;
+  text-decoration: none;
+  padding: 0 6px;
+  background: var(--Secondary-Color);
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.project-btn:hover {
+  color: var(--Another-Color);
+}
