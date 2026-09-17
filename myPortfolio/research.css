@@ -114,17 +114,19 @@ html {
   color: var(--Darker-Color);
 }
 
-/* projects */
-.projects-content {
+/* research page — placeholder */
+.research-content {
   max-width: 820px;
   margin: 0 auto;
-  padding: 80px 24px;
+  padding: 160px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  min-height: 50vh;
+  justify-content: center;
 }
-
+ 
 .title {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
@@ -133,106 +135,17 @@ html {
   margin: 0 0 12px 0;
   text-align: center;
 }
-
+ 
 .subtitle {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 500;
-  font-size: 1.15rem;
-  color: var(--Secondary-Color);
-  margin: 0 0 60px 0;
-  text-align: center;
-}
-
-.projects-grid {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 50px 36px;
-}
-
-.project-card {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  width: 100%;
-}
-
-.project-image-box {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  background-color: #eeeeee;
-  border-radius: 24px;
-  margin-bottom: 16px;
-}
-
-/*.project-image-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 40px;
-}*/
-
-.project-details {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  font-family: "Space Grotesk", sans-serif;
-}
-
-.project-tag {
-  font-weight: 700;
-  font-size: 0.85rem;
-  letter-spacing: 0.05rem;
-  color: var(--Secondary-Color);
-}
-
-.project-highlight {
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--Secondary-Color);
   margin: 0;
 }
-
-.project-desc {
-  font-weight: 500;
-  font-size: 1.05rem;
-  color: var(--Secondary-Color);
-  margin: 0;
-  line-height: 1.4;
-}
-
-.project-tech {
-  font-weight: 700;
-  font-size: 0.95rem;
-  color: var(--Secondary-Color);
-}
-
-@media (max-width: 800px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-    gap: 50px;
+ 
+@media (max-width: 600px) {
+  .title {
+    font-size: 2.5rem;
   }
-}
-
-.project-link-wrapper {
-  margin-top: 6px;
-}
-
-.project-btn {
-  display: inline-block;
-  align-self: flex-start;
-  padding: 10px 18px;
-  color: white;
-  background: var(--Secondary-Color);
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: 700;
-  font-size: 1rem;
-  transition: background 0.2s ease, transform 0.2s ease;
-}
-
-.project-btn:hover {
-  background: var(--Darker-Color);
-  transform: translateY(-2px);
 }
