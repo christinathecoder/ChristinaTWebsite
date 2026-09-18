@@ -299,6 +299,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 24px;
   padding: 40px 0;
   margin-top: 60px;
 }
@@ -321,4 +322,24 @@ h2 {
   width: 40px;
   height: 40px;
   display: block;
+}
+/* email */
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: var(--Secondary-Color);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.social-icon svg {
+  width: 40px;
+  height: 40px;
+}
+
+.social-icon:hover {
+  color: var(--Darker-Color);
+  transform: scale(1.1);
 }
